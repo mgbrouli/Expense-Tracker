@@ -22,34 +22,32 @@ A simple and efficient Command Line Interface (CLI) tool to manage your personal
    git clone [https://github.com/mgbrouli/Expense-Tracker.git](https://github.com/mgbrouli/Expense-Tracker.git)
 Navigate to the project folder:
 
-Bash
-
+   ```bash
 cd Expense-Tracker
 Usage
 Run the script using the following commands:
 
 1. Add a new expense
-Bash
-
+   
 python main.py add --description "Lunch" --amount 20
 2. List all expenses
-Bash
+
 
 python main.py list
 3. Delete an expense
-Bash
+
 
 python main.py remove --id 1
 4. View total summary
-Bash
+
 
 python main.py summary
 5. View summary for a specific month (e.g., August)
-Bash
+
 
 python main.py summary --month 8
 6. Update an expense
-Bash
+
 
 python main.py update --id 1 --description "Groceries" --amount 50
 Project Structure
